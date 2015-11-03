@@ -1,0 +1,34 @@
+{
+    "name": "craryprimitiveman/php-resque-scheduler",
+    "description": "php-resque-scheduler is a PHP port of resque-scheduler, which adds support for scheduling items in the future to Resque.",
+    "keywords": ["scheduler", "queue", "worker", "resque", "job", "redis"],
+    "type": "library",
+    "license": "MIT",
+    "support": {
+        "issues": "https://github.com/craryprimitiveman/php-resque-scheduler/issues",
+        "source": "https://github.com/craryprimitiveman/php-resque-scheduler"
+    },
+    "authors": [
+        {
+            "name": "harrysun",
+            "email": "sunguangjun@126.com"
+        },
+        {
+            "name": "Chris Boulton",
+            "email": "chris@bigcommerce.com"
+        }
+    ],
+    "minimum-stability": "stable",
+    "require": {
+        "php": ">=5.4.0",
+        "craryprimitiveman/php-resque": ">=0.1.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "resque\\scheduler\\": "src/",
+            "resque\\scheduler\\demo\\": "demo/"
+        }
+    },
+    "extra": {
+    }
+}
