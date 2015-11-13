@@ -21,7 +21,7 @@
     "minimum-stability": "stable",
     "require": {
         "php": ">=5.4.0",
-        "craryprimitiveman/php-resque": ">=0.1.0"
+        "craryprimitiveman/php-resque": ">=0.1.1"
     },
     "autoload": {
         "psr-4": {
